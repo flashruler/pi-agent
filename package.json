@@ -1,7 +1,7 @@
 {
   "name": "pi-agent-setup",
   "version": "0.1.0",
-  "description": "Jay's reusable Pi coding agent setup: interactive question tools, TPS status, and workflow commands.",
+  "description": "Jay's reusable Pi coding agent setup: TUI clarification questions, TPS status, and workflow commands.",
   "private": true,
   "keywords": [
     "pi-package",

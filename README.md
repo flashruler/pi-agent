@@ -4,9 +4,7 @@ Reusable [Pi](https://pi.dev) coding agent setup.
 
 ## What's included
 
-- `ask_user_tui` tool: lets the agent ask one or more clarification questions in Pi's terminal UI.
-- `question` tool: single-choice question UI with an optional custom answer.
-- `questionnaire` tool: multi-question/tabbed questionnaire UI.
+- `ask_user_tui` tool: lets the agent ask one or more clarification questions in Pi's terminal UI, including option descriptions and custom answers.
 - `tps-tracker` extension: shows generation tokens/second while the model streams.
 - `/yeet` command: stages, commits, and pushes current repository changes with a concise commit message.
 
