@@ -1,0 +1,28 @@
+{
+  "name": "pi-agent-setup",
+  "version": "0.1.0",
+  "description": "Jay's reusable Pi coding agent setup: interactive question tools, TPS status, and workflow commands.",
+  "private": true,
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "coding-agent"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": { "optional": true },
+    "@earendil-works/pi-tui": { "optional": true },
+    "typebox": { "optional": true }
+  }
+}
